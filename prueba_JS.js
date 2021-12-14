@@ -54,6 +54,6 @@ while (i >= 2){
     console.log("El valor de i es " + i)
 }
 
-const funcion = (Array) {
+function funcion(Array) {
     console.log(Array[0]);
 }
