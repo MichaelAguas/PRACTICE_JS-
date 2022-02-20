@@ -1,0 +1,93 @@
+* { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: #52c234;
+}
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+header img {
+    padding-left: 8px;
+    width: 60px;
+    height: 60px;
+}
+
+header ul {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header ul li { 
+    padding: 4px;
+}
+
+
+a {
+    padding: 4px;
+    border: 1px solid #52c234 ;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    border: 1px solid white;
+    border-radius: 8px
+}
+
+
+p {
+    font-size: 24px;
+}
+
+ .formulario {
+     display: flex; 
+     justify-content: space-around;
+     flex-direction: column;
+
+     width: 404px;
+     height: 74vh;
+
+     padding: 12px;
+
+     background: #6aaf4c;
+     box-shadow: 3px 8px 20px 8px rgb(0 0 0 / 20%);
+     border-radius: 12px;
+
+
+     margin-left: auto; 
+     margin-right: auto;
+
+ }
+
+ .formulario label { 
+     font-weight: bold;
+     font-size: 24px;
+ }
+
+ .formulario input {
+     border-radius: 4px;
+     padding: 8px;
+ }
+
+ .formulario button { 
+    
+    background-color: white;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+
+ }
